@@ -11,8 +11,7 @@ namespace chess_console
 
             B = new Board(8, 8);
 
-            Console.WriteLine("Position: " + B);
-            Console.ReadLine();
+            Screen.boardPrinter(B);
         }
     }
 }
