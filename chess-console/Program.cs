@@ -7,11 +7,11 @@ namespace chess_console
     {
         static void Main(string[] args)
         {
-            Position P;
+            Board B;
 
-            P = new Position(3, 4);
+            B = new Board(8, 8);
 
-            Console.WriteLine("Position: " + P);
+            Console.WriteLine("Position: " + B);
             Console.ReadLine();
         }
     }
