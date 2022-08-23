@@ -14,7 +14,7 @@ namespace chess_console
 
                 B.putPiece(new Rock(Color.Black, B), new Position(0, 0));
                 B.putPiece(new Rock(Color.Black, B), new Position(1, 3));
-                B.putPiece(new King(Color.Black, B), new Position(0, 1));
+                B.putPiece(new King(Color.Black, B), new Position(0, 0));
 
                 Screen.boardPrinter(B);
             }
